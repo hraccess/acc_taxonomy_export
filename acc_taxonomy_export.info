@@ -1,0 +1,11 @@
+name = Access Taxonomy Export
+description = To export all database parameters for Access Module
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ds
+dependencies[] = views
+dependencies[] = views_data_export
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = acc_db_parameters
+features_exclude[dependencies][ctools] = ctools

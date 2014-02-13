@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Access Taxonomy Export feature.
+ */
+
+include_once 'acc_taxonomy_export.features.inc';
