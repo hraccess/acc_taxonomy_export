@@ -58,7 +58,7 @@ function acc_taxonomy_export_views_default_views() {
   $handler->display->display_options['filters']['machine_name']['table'] = 'taxonomy_vocabulary';
   $handler->display->display_options['filters']['machine_name']['field'] = 'machine_name';
   $handler->display->display_options['filters']['machine_name']['value'] = array(
-    'acc_application_types' => 'acc_application_types',
+    'locations' => 'locations',
   );
 
   /* Display: Block */
