@@ -1,5 +1,5 @@
 <?php
-/**
+/****
  * @file
  * acc_taxonomy_export.views_default.inc
  */
